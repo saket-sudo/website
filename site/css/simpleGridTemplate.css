@@ -1,0 +1,310 @@
+.a:hover { text-decoration: none;}
+
+.paddingbsm{padding-bottom: 25px;}
+
+.paddingbmd{padding-bottom: 75px;}
+
+.paddingb{padding-bottom: 150px;}
+
+.paddingtmd{padding-top: 75px;}
+
+.paddingtsm{padding-top: 25px;}
+
+.paddingt{padding-top: 150px;}
+
+.paddingtf{padding-top: 50px;}
+
+.paddingbot{padding-bottom: 250px;}
+
+.roundcorner{border-radius: 85px;}
+
+.roundcornersm{border-radius: 75px;}
+
+.nav1{
+	background-color: transparent;
+	margin-bottom: 5px;
+}
+
+.size{
+	height: 700px;
+	width: 100%;
+	background-color:#E5E5E5;
+}
+
+#worksection{
+	background-color: transparent;
+}
+
+.logo {	margin: 0px 0px 0px 0px;}
+
+.nav-item {
+	/*font-family: 'Shippori Mincho B1', serif;*/
+	font-size: 1.05em;
+	color: black;
+	margin-top: auto;
+	margin-left: 20px;
+	font-weight: 600;
+}
+
+.nav-item:hover {
+	color:#FC5F5F; 
+	text-decoration: none;
+	text-emphasis-color: #FC5F5F;
+}
+
+.navbar {
+	background-color: transparent;/*#CFCFCF*/; /*#979393*/;
+	height: 55px;
+}
+
+.navbar-default{
+  transition:500ms ease;
+  background:transparent;
+}
+.navbar-default.scrolled{
+  background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*.container{
+	position: relative;
+	height: 3222px;
+	width: 1349px;
+	background-color: white;
+	margin-top: 50px;
+}*/
+
+.heroimage{
+	background-image: url("../images/Group.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1050px 650px;
+}
+
+.intro{
+	font-family: 'Shippori Mincho B1', serif;
+	font-size: 3em;
+	font-weight: 700;
+	margin-top: 0px;
+	color:black;
+}
+
+.intro:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.intro1{
+	font-family: 'Shippori Mincho B1', serif;
+	font-size: 2.5em;
+	font-weight: 700;
+}
+
+.intro2{
+	font-family: 'Shippori Mincho B1', serif;
+	font-size: 1.1em;
+	font-weight: 400;
+}
+
+.b1click{
+	font-family: 'Shippori Mincho B1',serif;
+	color: white;
+	font-size: 1.1em;
+	font-weight: 400;
+	padding-left: 20px;
+}
+
+.b2click{
+	display: none;
+	color: white;
+	font-size: 1.25em;
+	font-weight: 400;
+	padding-left: 85px;
+}
+
+.b1click:hover {
+	text-decoration: none;
+	color: white;
+	font-size: 1.1em;
+}
+
+.b1click:hover + .b2click{
+	text-decoration: none;
+	display: block;
+}
+
+.b2click:hover{
+	display: block;
+}
+
+.line{
+	padding-top: 100px;
+}
+
+.pro{
+	font-family: 'Shippori Mincho B1', serif;
+	font-size: 1.1em;
+	font-weight: 400;
+}
+
+.pro2{
+	font-family: 'Shippori Mincho B1', serif;
+	font-size: 0.95em;
+	font-weight: 400;
+	padding: auto;
+}
+
+.pro3{
+	font-family: 'Shippori Mincho B1', serif;
+	font-size: 3em;
+	font-weight: 600;
+}
+
+.pr2{
+	padding-left: 5px;
+}
+
+.img1{
+	padding-top: 25px;
+	padding-bottom:25px;
+}
+
+.img2{
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.texttitle{
+	font-family: 'Shippori Mincho B1', serif;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+
+.idk{
+	font-family: 'Shippori Mincho B1', serif;
+	font-size: 1.2em;
+	font-weight: 500;
+	padding-top: 150px;
+}
+
+.exline{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	height: 2px;
+	background: black;
+}
+
+.exlineh{
+ color: black;
+}
+
+.exline:hover {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	height: 5px;
+	background: black;
+}
+
+.exlineh:hover{
+	color:black;
+}
+
+.exlineh:hover + .exline{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	height: 5px;
+	background: black;
+}
+
+.footer{
+	width: 100%;
+	height: 155px;
+	background-color: transparent;/*#FC8A8A*/ /*black;*/ /*#CFCFCF;*/
+	border-top: 2px solid #FC8A8A;
+}
+
+/*.btn-outline-primary{
+	text-decoration: none;
+	color:#FC5F5F;
+	border-color:#FC5F5F;
+	background-color:#FFAFB1;
+}
+
+
+.btn:hover{
+	background-color: #FC5F5F;
+	border-color: #FC5F5F;
+}
+
+.btn a:hover{
+	color:white;
+}*/
+
+.padd{
+	padding-top: 250px;
+	padding-bottom: 250px;
+}
+
+.resumebgimg{
+	background-image: url("../images/resume.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: aliceblue;
+	/*background-attachment:fixed;*/
+}
+
+.sizesm{
+	height: 250px;
+	width: 250px;
+}
+
+.bgr{
+	background-color: #FC5F5F;
+}
+
+.footertext{
+	color: black;
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+.footertext a{
+	color: black;
+}
+
+.white{
+	color: white;
+	font-size: 1.4em;
+}
+
+.imgzoom{
+	transform: scale(1.28);
+	transform-origin: center;
+	overflow: hidden;
+}
+
+.bgcolor{
+background-color: #E5E5E5;
+}
+
+.bold{
+	font-weight: 700;
+}
+
+.paddingleft{
+	padding-left: 50px;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.notxtdec{
+	color: black;
+}
+
+.notxtdec:hover{
+	color:black;
+}
