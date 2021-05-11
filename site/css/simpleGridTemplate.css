@@ -80,6 +80,25 @@
 	background-size: 1050px 650px;
 }
 
+.heroimage2 {
+	position: relative;
+  }
+  
+  .heroimage2::after {
+	content: "";
+	background: url(../images/undraw_portfolio_website_lidw.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	opacity: 0.5;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
+  }
+
 .intro{
 	font-family: 'Shippori Mincho B1', serif;
 	font-size: 3em;
