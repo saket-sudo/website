@@ -78,6 +78,7 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 1050px 650px;
+	background-attachment: fixed;
 }
 
 .heroimage2 {
