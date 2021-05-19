@@ -42,3 +42,18 @@ const handleScrollAnimation = () => {
 window.addEventListener("scroll", () => { 
   handleScrollAnimation();
 });
+
+
+document.writeln('<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>');
+
+$(window).scroll(function() {
+
+  if ($(this).scrollTop()>0)
+   {
+      $('.ons').fadeOut();
+   }
+  else
+   {
+    $('.ons').fadeIn();
+   }
+});
