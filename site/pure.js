@@ -2,6 +2,23 @@ $(window).scroll(function(){
 	$('nav').toggleClass('scrolled', $(this).scrollTop() > 500);
 });// JavaScript Document
 
+
+$(window).scroll(function() {
+
+  if ($(this).scrollTop()>0)
+   {
+      $('.ons').fadeOut();
+   }
+  else
+   {
+    $('.ons').fadeIn();
+   }
+});
+
+document.writeln('<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>');
+
+
+
 const scrollElements = document.querySelectorAll(".js-scroll");
 
 const elementInView = (el, dividend = 1) => {
@@ -41,19 +58,4 @@ const handleScrollAnimation = () => {
 
 window.addEventListener("scroll", () => { 
   handleScrollAnimation();
-});
-
-
-document.writeln('<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>');
-
-$(window).scroll(function() {
-
-  if ($(this).scrollTop()>0)
-   {
-      $('.ons').fadeOut();
-   }
-  else
-   {
-    $('.ons').fadeIn();
-   }
 });
